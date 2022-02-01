@@ -1,0 +1,31 @@
+.section-presentation{
+    border-top: .5rem solid var(--darkgreen);
+    border-bottom: .5rem solid var(--darkgreen);
+    background-color: var(--white);
+}
+
+.presentation-content{
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentation-content > article{
+    min-width:20rem;
+    width: 45%;
+    height:30rem;
+    text-overflow: hidden;
+    overflow: auto;
+}
+
+.h2{
+    text-align: center;
+    color: var(--green);
+    margin: 1.6rem 0;
+
+}
+p{
+    margin:1rem;
+}
+

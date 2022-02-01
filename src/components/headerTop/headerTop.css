@@ -1,0 +1,6 @@
+.top-header{
+    text-align: center;;
+    background-color: var(--green);
+    color:rgb(39, 38, 129);
+    padding:1rem;
+}

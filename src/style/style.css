@@ -1,0 +1,48 @@
+/*gobal styles*/
+:root{
+    --green: rgb(111, 170, 136);
+    --darkgreen: rgb(49, 75, 60);
+    --light: rgb(245, 248, 221);
+    --blue:  rgb(39, 38, 129);
+    --lightblue : rgb(165, 165, 245);
+    --white: rgb(255,255,255);
+    --shadow: rgb(0,0,0,.3);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+
+
+body{
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;;
+}
+
+/* Titles styles */
+.h1{
+    font-size: 3rem;
+    margin:1rem
+}
+
+/*Link style*/
+.link{
+    display: block;
+    padding: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--green);
+    border: .1rem solid transparent;
+    transition: all .7s;
+}
+
+.link:hover{
+    background-color: var(--white);
+    border:.1rem solid var(--green);
+    color: var(--green);
+}

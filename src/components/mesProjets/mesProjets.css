@@ -1,0 +1,28 @@
+.section-projet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:1.6rem;
+    background-color: var(--light);
+}
+
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+    border: .1rem solid var(--green);
+    border-radius: .8rem;
+    margin:1rem;
+    padding: 1rem;
+    width: 20rem;
+    min-height: 20rem;
+    background-color: #fff;
+    box-shadow: .8rem .8rem 1.6rem var(--shadow);
+}
+
+.project-card h3{
+    color: var(--green);
+}
