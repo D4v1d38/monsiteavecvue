@@ -1,14 +1,14 @@
 .section-presentation{
-    border-top: .5rem solid var(--darkgreen);
-    border-bottom: .5rem solid var(--darkgreen);
+    border-top: .5rem solid var(--darkblue);
+    border-bottom: .5rem solid var(--darkblue);
     background-color: var(--white);
+
 }
 
 .presentation-content{
     text-align: justify;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .presentation-content > article{
@@ -21,7 +21,7 @@
 
 .h2{
     text-align: center;
-    color: var(--green);
+    color: var(--darkblue);
     margin: 1.6rem 0;
 
 }

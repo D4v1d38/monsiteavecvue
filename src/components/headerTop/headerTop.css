@@ -1,6 +1,35 @@
 .top-header{
-    text-align: center;;
-    background-color: var(--green);
-    color:rgb(39, 38, 129);
+    display: flex;
+    justify-content: space-around;
+    align-items : center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: var(--white); 
     padding:1rem;
+    background-color: var(--lightblue);
+    min-height: 100vh;
+
+}
+
+.my-photo{
+    border-radius: 32% 68% 70% 30% / 30% 30% 70% 70%; 
+    border: .3rem solid var(--white);
+    overflow: hidden;
+    min-height: 45vh;
+    max-height: 85vh;
+    box-shadow: var(--shadow);
+    
+
+} 
+.my-photo img{
+    object-fit: cover; 
+}
+
+.header-intro h1{
+    font-size: 10rem;
+    text-shadow: var(--shadow);
+}
+
+.header-intro p{
+    font-size: 3rem;
 }

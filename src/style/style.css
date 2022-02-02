@@ -4,9 +4,10 @@
     --darkgreen: rgb(49, 75, 60);
     --light: rgb(245, 248, 221);
     --blue:  rgb(39, 38, 129);
-    --lightblue : rgb(165, 165, 245);
+    --darkblue: rgb(40, 50, 110);
+    --lightblue : rgb(35, 100, 165);
     --white: rgb(255,255,255);
-    --shadow: rgb(0,0,0,.3);
+    --shadow: .8rem .8rem 1.6rem rgb(0,0,0,.3);
 }
 
 *{
@@ -24,6 +25,10 @@ body{
     font-size: 1.6rem;;
 }
 
+img{
+    max-width:100%;
+}
+
 /* Titles styles */
 .h1{
     font-size: 3rem;
@@ -36,13 +41,13 @@ body{
     padding: 1rem;
     color: var(--white);
     text-decoration: none;
-    background-color: var(--green);
+    background-color: var(--lightblue);
     border: .1rem solid transparent;
     transition: all .7s;
 }
 
 .link:hover{
     background-color: var(--white);
-    border:.1rem solid var(--green);
-    color: var(--green);
+    border:.1rem solid var(--lightblue);
+    color: var(--lightblue);
 }

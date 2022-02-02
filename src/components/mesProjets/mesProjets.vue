@@ -4,7 +4,7 @@
         <div class="project-card" v-for="(projectItem, index) in myProjects" v-bind:key="index">
             <h3>{{myProjects[index].title}}</h3>
             <p>{{myProjects[index].introduction}}</p>
-            <a class="link" v-bind:href="myProjects[index].lien"> voir le lien </a>
+            <a class="link" v-bind:href="myProjects[index].lien" target="_blank"> voir le lien </a>
         </div>
     </section>
     
