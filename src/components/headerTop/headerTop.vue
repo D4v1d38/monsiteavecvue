@@ -8,12 +8,14 @@
             <p>Intégrateur/développeur web junior</p>
             <p>{{introduction}}</p>
             <em>Ce site est en cours de développement autodidacte avec Vue.js/cli</em>
+
         </div>
     </header>
     
 </template>
 
 <script>
+
     export default{
         name:"top-header",
         data(){
@@ -21,6 +23,7 @@
                 introduction : "Bienvenue sur mon premier site autodidacte en Vuejs :)"
             }
         }
+
     }
 
 </script>
